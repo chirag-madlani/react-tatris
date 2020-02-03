@@ -1,3 +1,5 @@
+# react-tatris
+Tatris game with use of react hooks
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -2,7 +2,7 @@
   "name": "react-tetris",
   "version": "0.1.0",
   "private": true,
-  "home": "https://github.com/chirag-madlani/react-tatris",
+  "home": "https://github.com/chirag-madlani/react-tatris/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

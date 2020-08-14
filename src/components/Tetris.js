@@ -15,6 +15,7 @@ import { useInterval } from '../hooks/useInterval';
 import {usePlayer} from '../hooks/usePlayer';
 import {useStage} from '../hooks/useStage';
 import { useGameStatus } from '../hooks/useGameStatus';
+import ArrowButton from './ArrowButton';
 
 const Tetris = () => {
 
@@ -110,6 +111,14 @@ const Tetris = () => {
                     }
                     <StartButton callback={startGame} />
                 </aside>
+                <div style={{display: 'flex'}}>
+                    <ArrowButton callback={() => move({ keyCode: 37 })}>&#x2B05;</ArrowButton>
+                    <div style={{display: 'flex', flexDirection: 'column'}}>
+                        <ArrowButton callback={() => move({ keyCode: 38 })}>&#x2B06;</ArrowButton>
+                        <ArrowButton callback={() => move({ keyCode: 40 })}>&#x2B07;</ArrowButton>
+                    </div>
+                    <ArrowButton callback={() => move({ keyCode: 39 })}>&#x27A1;</ArrowButton>
+                </div>
             </StyledTetris>
         </StyledTetrisWrapper>
     );
